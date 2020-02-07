@@ -9,6 +9,13 @@
     # 2) If there are multiple commands, either put a semicolon between the commands or write each command on a separate line
     # 3) Execute the script before submission and confirm the output. Delete the created directories/files, if any, before testing the script
 
+mkdir -p /home/crio-user/workspace/QBox/backup
+mkdir -p /home/crio-user/workspace/QBox/transfer
 
+cd ../QBox/logs
+cp vsftpd1.log ../backup
+
+cd ~/workspace/QBox
+tree
 
 
