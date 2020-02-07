@@ -12,8 +12,8 @@
 mkdir -p /home/crio-user/workspace/QBox/backup
 mkdir -p /home/crio-user/workspace/QBox/transfer
 
-cd ../QBox/logs
-cp vsftpd1.log ../backup
+cd ~/workspace/QBox/logs
+cp vsftpd1.log ~/workspace/QBox/backup
 
 cd ~/workspace/QBox
 tree
