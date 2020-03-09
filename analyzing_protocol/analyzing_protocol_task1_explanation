@@ -1,2 +1,1 @@
-Due to NAT in the middle, ifconfig shows the INTERNAL IP address, that is local to a small network. This is what another device on the same network would see when it finds for this workspace.
-Ping command outputs what was assigned by Internet Service Provider (ISP) and is how computers on the internet can find this workspace. This EXTERNAL address is shared by some other devices too.
+In ping we are getting the IP address of VM so as we know that VM is running somewhere and when we execute ifconfig we get the main internal ip address. Therefore both the ip addresses are different in output
